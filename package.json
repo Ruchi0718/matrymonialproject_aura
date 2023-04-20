@@ -30,6 +30,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
+  "engines": {
+    "node": "16.x"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -43,9 +47,6 @@
       "not op_mini all"
     ],
 
-    "engines": {
-      "node": "16.x"
-    },
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
